@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button1"
+            android:backgroundTint="@color/gray"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="onClickButton"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/button2"
+            android:backgroundTint="@color/gray"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="onClickButton"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/button3"
+            android:backgroundTint="@color/gray"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="onClickButton"
+            style="?android:attr/buttonBarButtonStyle" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button4"
+            android:backgroundTint="@color/gray"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="onClickButton"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/button5"
+            android:backgroundTint="@color/gray"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="onClickButton"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/button6"
+            android:backgroundTint="@color/gray"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="onClickButton"
+            style="?android:attr/buttonBarButtonStyle" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button7"
+            android:backgroundTint="@color/gray"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="onClickButton"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/button8"
+            android:backgroundTint="@color/gray"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="onClickButton"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/button9"
+            android:backgroundTint="@color/gray"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="onClickButton"
+            style="?android:attr/buttonBarButtonStyle" />
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TrisApp</string>
+    <string name="restart">restart</string>
+    <string name="quit">quit</string>
+</resources>
